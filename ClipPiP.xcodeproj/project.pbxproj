@@ -1,0 +1,244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000011000000000000001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001000000000000001 /* main.swift */; };
+		A1000012000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002000000000000001 /* AppDelegate.swift */; };
+		A1000013000000000000001 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000003000000000000001 /* HotKeyManager.swift */; };
+		A1000014000000000000001 /* PiPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004000000000000001 /* PiPController.swift */; };
+		A1000031000000000000001 /* ShortcutSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000030000000000000001 /* ShortcutSettings.swift */; };
+		A1000033000000000000001 /* ShortcutRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000032000000000000001 /* ShortcutRecorder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000001000000000000001 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A1000002000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1000003000000000000001 /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		A1000004000000000000001 /* PiPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPController.swift; sourceTree = "<group>"; };
+		A1000005000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1000030000000000000001 /* ShortcutSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutSettings.swift; sourceTree = "<group>"; };
+		A1000032000000000000001 /* ShortcutRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutRecorder.swift; sourceTree = "<group>"; };
+		A1000006000000000000001 /* ClipPiP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipPiP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000007000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1000008000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A1000009000000000000001 /* ClipPiP */,
+				A100000A000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000009000000000000001 /* ClipPiP */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001000000000000001 /* main.swift */,
+				A1000002000000000000001 /* AppDelegate.swift */,
+				A1000003000000000000001 /* HotKeyManager.swift */,
+				A1000004000000000000001 /* PiPController.swift */,
+				A1000030000000000000001 /* ShortcutSettings.swift */,
+				A1000032000000000000001 /* ShortcutRecorder.swift */,
+				A1000005000000000000001 /* Info.plist */,
+			);
+			path = ClipPiP;
+			sourceTree = "<group>";
+		};
+		A100000A000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000006000000000000001 /* ClipPiP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A100000B000000000000001 /* ClipPiP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A100000E000000000000001 /* Build configuration list for PBXNativeTarget "ClipPiP" */;
+			buildPhases = (
+				A100000C000000000000001 /* Sources */,
+				A1000007000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipPiP;
+			productName = ClipPiP;
+			productReference = A1000006000000000000001 /* ClipPiP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A100000D000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					A100000B000000000000001 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = A100000F000000000000001 /* Build configuration list for PBXProject "ClipPiP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1000008000000000000001;
+			productRefGroup = A100000A000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A100000B000000000000001 /* ClipPiP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A100000C000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000011000000000000001 /* main.swift in Sources */,
+				A1000012000000000000001 /* AppDelegate.swift in Sources */,
+				A1000013000000000000001 /* HotKeyManager.swift in Sources */,
+				A1000014000000000000001 /* PiPController.swift in Sources */,
+				A1000031000000000000001 /* ShortcutSettings.swift in Sources */,
+				A1000033000000000000001 /* ShortcutRecorder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1000011000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1000012000000000000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ClipPiP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DNZ.clippip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1000013000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ClipPiP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DNZ.clippip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A100000F000000000000001 /* Build configuration list for PBXProject "ClipPiP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000010000000000000001 /* Debug */,
+				A1000011000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A100000E000000000000001 /* Build configuration list for PBXNativeTarget "ClipPiP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000012000000000000002 /* Debug */,
+				A1000013000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A100000D000000000000001 /* Project object */;
+}
